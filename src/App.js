@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import TodoItem from "./Component/TodoItems"; // Make sure the filename is correct
 
-const API_BASE = "http://localhost:3001/api/todo";
+const API_BASE = "http://13.236.194.210:3001/api/todo";
 
 function App() {
   const [todos, setTodos] = useState([]);
